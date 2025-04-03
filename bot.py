@@ -4,7 +4,7 @@ import re
 import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from aiogram.utils import executor
+from aiogram import executor
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, unquote
 
