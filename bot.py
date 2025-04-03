@@ -52,7 +52,7 @@ def get_download_info(download_url, referer):
 
 @dp.message_handler(commands=['start'])
 async def start_command(message: types.Message):
-    await message.reply("أرسل لي رابط التحميل من عرب سيد وسأوفر لك الروابط المباشرة! 🗂")
+    await message.reply("أرسل لي رابط التحميل من عرب سيد وسأوفر لك الروابط المباشرة! 🗂\n arabseed.com")
 
 @dp.message_handler()
 async def process_link(message: types.Message):
